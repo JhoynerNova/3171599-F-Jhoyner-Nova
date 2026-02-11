@@ -1,0 +1,14 @@
+# ============================================
+# PYPROJECT.TOML - Proyecto API de Saludo
+# ============================================
+[project]
+name = "greeting-api"
+version = "1.0.0"
+description = "API de Saludo - Proyecto Semana 01"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "fastapi[standard]>=0.109.0",
+    "uvicorn[standard]>=0.27.0"
+]
